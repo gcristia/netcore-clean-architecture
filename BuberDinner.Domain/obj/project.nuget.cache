@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "49PrlwgO56yW6ogl4QIejB0lrG1Z/BDLioJ7KsA8EnVwB8ZKzo0I13GMAJL/qYDCKSj+3r9xzTq7ZOWY7GIGeA==",
+  "success": true,
+  "projectFilePath": "D:\\gustavo\\Projects\\csharp\\net\\Clean Architecture + DDD\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SoftDev\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
