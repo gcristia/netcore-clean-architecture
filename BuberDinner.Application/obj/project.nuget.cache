@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "59SD9xHWvGjj6MWQOksKmuKpLrxmzHBvhd8R0O+tMeVisKMhMFiNehIK4IFrnDbyiz8rP2ePkWLfMwm/Gpv0rA==",
+  "success": true,
+  "projectFilePath": "D:\\gustavo\\Projects\\csharp\\net\\Clean Architecture + DDD\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SoftDev\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\fluentresults\\3.15.1\\fluentresults.3.15.1.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
