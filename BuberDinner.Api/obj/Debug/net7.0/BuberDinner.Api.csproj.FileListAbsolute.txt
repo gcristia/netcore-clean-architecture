@@ -49,3 +49,6 @@ D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.
 D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\MediatR.dll
 D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\MediatR.Contracts.dll
 D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\Mapster.dll
+D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\Mapster.Core.dll
+D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\Mapster.DependencyInjection.dll

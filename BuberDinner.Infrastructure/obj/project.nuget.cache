@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "TZdOt2494z6DzMU/G6+rU8r03k9z4DQS2jalhfmbhzHmMpQoXTh54D1ROUCQATES2Xcq+5/kRKbYgIC2hfwe9Q==",
+  "dgSpecHash": "Gl1hfDVHAz9nV4m7P/l+2Ta4Q8tG8VuDbAlAEt9Yd2sbriOpKCv1KrGKkzWTTVwRbueuptZ0A1tOBCXOgCOxQQ==",
   "success": true,
   "projectFilePath": "D:\\gustavo\\Projects\\csharp\\net\\Clean Architecture + DDD\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SoftDev\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\fluentresults\\3.15.1\\fluentresults.3.15.1.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\mapster\\7.3.0\\mapster.7.3.0.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\mapster.core\\1.2.0\\mapster.core.1.2.0.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\mapster.dependencyinjection\\1.0.0\\mapster.dependencyinjection.1.0.0.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
@@ -25,10 +28,16 @@
     "C:\\Users\\SoftDev\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.25.1\\system.identitymodel.tokens.jwt.6.25.1.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []

@@ -122,6 +122,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Mapster.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[11.1.0, )"
