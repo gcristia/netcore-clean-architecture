@@ -1,0 +1,2 @@
+﻿GET {{host}}/dinners
+Authorization: Bearer {{token}}

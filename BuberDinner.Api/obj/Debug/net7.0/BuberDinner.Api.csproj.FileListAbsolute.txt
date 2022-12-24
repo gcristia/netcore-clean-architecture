@@ -55,3 +55,6 @@ D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.
 D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\FluentValidation.dll
 D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
 D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
