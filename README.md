@@ -13,7 +13,7 @@
 
 ![amantinband](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 
-Project based on Amichai Mantinband ([@amantinband](https://github.com/amantinband) courses on Youtube, I thank him for all the knowledge he has transmitted to me.
+Project based on Amichai Mantinband ([@amantinband](https://github.com/amantinband)) courses on Youtube, I thank him for all the knowledge he has transmitted to me.
 
 ---
 ⌨️with ❤️by [gcristia](https://github.com/gcristia) 😊

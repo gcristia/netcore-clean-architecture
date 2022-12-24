@@ -46,3 +46,6 @@ D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.
 D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\ErrorOr.dll
 D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\FluentResults.dll
+D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\MediatR.dll
+D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\MediatR.Contracts.dll
+D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

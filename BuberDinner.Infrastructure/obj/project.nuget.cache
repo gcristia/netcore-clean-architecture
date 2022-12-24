@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "swIFbU4ufhukhT//LZ0Hlz4NLBbHtKWYVjSwKfdwXQY+6noLgWPvp5JRlEwXNMJXZmEsX+Z/71Qh+g0xzSrCwA==",
+  "dgSpecHash": "TZdOt2494z6DzMU/G6+rU8r03k9z4DQS2jalhfmbhzHmMpQoXTh54D1ROUCQATES2Xcq+5/kRKbYgIC2hfwe9Q==",
   "success": true,
   "projectFilePath": "D:\\gustavo\\Projects\\csharp\\net\\Clean Architecture + DDD\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SoftDev\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\fluentresults\\3.15.1\\fluentresults.3.15.1.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

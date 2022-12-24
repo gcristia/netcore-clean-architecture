@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "raWaDGGov1Stxge+JRHXDsJc1Sj5omEph4D52lqOXXyGKNJvnFY9+Nn5tbZ5ETEdrRkOHqbCl/NztvxHlQsLsQ==",
+  "dgSpecHash": "Aw9oZ1tEHYoiZtvfx0CHK1Zs5Of6L9jtnOPFHmV+ezNPgJS8h7KUHjBusWUfzapptWtRODtV561Og1LyYULe+A==",
   "success": true,
   "projectFilePath": "D:\\gustavo\\Projects\\csharp\\net\\Clean Architecture + DDD\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SoftDev\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\fluentresults\\3.15.1\\fluentresults.3.15.1.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\SoftDev\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\SoftDev\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

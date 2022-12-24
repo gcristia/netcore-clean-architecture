@@ -1,96 +1,52 @@
-﻿using BuberDinner.Api.Filters;
-using BuberDinner.Application.Common.Errors;
-using BuberDinner.Application.Services;
+﻿using BuberDinner.Application.Authentication.Commands.Register;
+using BuberDinner.Application.Authentication.Common;
+using BuberDinner.Application.Authentication.Queries.Login;
 using BuberDinner.Contracts.Authentication;
 using BuberDinner.Domain.Errors;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BuberDinner.Api.Controllers;
 
 [Route("auth")]
-//[ErrorHandlingFilter]
 public class AuthenticationController : ApiController
 {
-    private readonly IAuthenticationService _authenticationService;
+    private readonly ISender _mediator;
 
-    public AuthenticationController(IAuthenticationService authenticationService)
+    public AuthenticationController(ISender mediator)
     {
-        _authenticationService = authenticationService;
+        _mediator = mediator;
     }
 
     [HttpPost("register")]
-    public IActionResult Register(RegisterRequest request)
+    public async Task<IActionResult> Register(RegisterRequest request)
     {
-        var registerResult =
-            _authenticationService.Register(request.FirstName, request.LastName, request.Email, request.Password);
+        var command = new RegisterCommand(request.FirstName, request.LastName, request.Email, request.Password);
+        var registerResult = await _mediator.Send(command);
 
-        /*if (!registerResult.IsT0)
-            return Problem(statusCode: StatusCodes.Status409Conflict, title: "Email already exists.");
-
-        var authResult = registerResult.AsT0;
-        var response = MapAuthResult(authResult);
-        return Ok(response);*/
-
-        /*return registerResult.Match(
-            authResult => Ok(MapAuthResult(authResult)),
-            //_ => Problem(statusCode: StatusCodes.Status409Conflict, title: "Email already exists."));
-            error => Problem(statusCode: (int)error.StatusCode, title: error.ErrorMessage));*/
-
-        // FLUENT RESULT
-        /*if (registerResult.IsSuccess)
-        {
-            return Ok(MapAuthResult(registerResult.Value));
-        }
-
-        var firstError = registerResult.Errors[0];
-
-        if (firstError is DuplicateEmailError)
-        {
-            return Problem(statusCode: StatusCodes.Status409Conflict, title: "Email already exists.");
-        }
-
-        return Problem();*/
-
-        // ErrorOr
-        /*return registerResult.MatchFirst(
-            authResult => Ok(MapAuthResult(authResult)),
-            //  _ => Problem(statusCode: StatusCodes.Status409Conflict, title: "User already exists.")
-            firstError => Problem(statusCode: StatusCodes.Status409Conflict, title: firstError.Description)
-        );*/
-
-        // With ApiController Errors
         return registerResult.Match(
             authResult => Ok(MapAuthResult(authResult)),
-            //  _ => Problem(statusCode: StatusCodes.Status409Conflict, title: "User already exists.")
             Problem // ==>  errors => Problem(errors)
         );
     }
 
     [HttpPost("login")]
-    public IActionResult Login(LoginRequest request)
+    public async Task<IActionResult> Login(LoginRequest request)
     {
-        var loginResult = _authenticationService.Login(request.Email, request.Password);
+        var query = new LoginQuery(request.Email, request.Password);
+        var loginResult = await _mediator.Send(query);
 
-        // ErrorOr
-        /*return loginResult.MatchFirst(
-            authResult => Ok(MapAuthResult(authResult)),
-            //  _ => Problem(statusCode: StatusCodes.Status409Conflict, title: "User already exists.")
-            firstError => Problem(statusCode: StatusCodes.Status409Conflict, title: firstError.Description)
-        );*/
 
         if (loginResult.IsError && loginResult.FirstError == Errors.Authentication.InvalidCredentials)
         {
             return Problem(statusCode: StatusCodes.Status401Unauthorized, title: loginResult.FirstError.Description);
         }
 
-        // With ApiController Errors
         return loginResult.Match(
             authResult => Ok(MapAuthResult(authResult)),
-            //  _ => Problem(statusCode: StatusCodes.Status409Conflict, title: "User already exists.")
             Problem // ==>  errors => Problem(errors)
         );
     }
-
 
     private static AuthenticationResponse MapAuthResult(AuthenticationResult authResult)
     {
