@@ -52,3 +52,6 @@ D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.
 D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\Mapster.dll
 D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\Mapster.Core.dll
 D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\Mapster.DependencyInjection.dll
+D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\FluentValidation.dll
+D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+D:\gustavo\Projects\csharp\net\Clean Architecture + DDD\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
