@@ -1,6 +1,6 @@
-﻿using BuberDinner.Api.Filters;
-using BuberDinner.Application.Common.Errors;
-using BuberDinner.Application.Services;
+﻿using BuberDinner.Application.Services.Authentication.Command;
+using BuberDinner.Application.Services.Authentication.Common;
+using BuberDinner.Application.Services.Authentication.Queries;
 using BuberDinner.Contracts.Authentication;
 using BuberDinner.Domain.Errors;
 using Microsoft.AspNetCore.Mvc;
@@ -11,18 +11,21 @@ namespace BuberDinner.Api.Controllers;
 //[ErrorHandlingFilter]
 public class AuthenticationController : ApiController
 {
-    private readonly IAuthenticationService _authenticationService;
+    private readonly IAuthenticationCommandService _authenticationCommandService;
+    private readonly IAuthenticationQueryService _authenticationQueryService;
 
-    public AuthenticationController(IAuthenticationService authenticationService)
+
+    public AuthenticationController(IAuthenticationCommandService authenticationCommandService, IAuthenticationQueryService authenticationQueryService)
     {
-        _authenticationService = authenticationService;
+        _authenticationCommandService = authenticationCommandService;
+        _authenticationQueryService = authenticationQueryService;
     }
 
     [HttpPost("register")]
     public IActionResult Register(RegisterRequest request)
     {
         var registerResult =
-            _authenticationService.Register(request.FirstName, request.LastName, request.Email, request.Password);
+            _authenticationCommandService.Register(request.FirstName, request.LastName, request.Email, request.Password);
 
         /*if (!registerResult.IsT0)
             return Problem(statusCode: StatusCodes.Status409Conflict, title: "Email already exists.");
@@ -69,7 +72,7 @@ public class AuthenticationController : ApiController
     [HttpPost("login")]
     public IActionResult Login(LoginRequest request)
     {
-        var loginResult = _authenticationService.Login(request.Email, request.Password);
+        var loginResult = _authenticationQueryService.Login(request.Email, request.Password);
 
         // ErrorOr
         /*return loginResult.MatchFirst(
