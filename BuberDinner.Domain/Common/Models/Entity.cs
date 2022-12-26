@@ -2,7 +2,6 @@
 
 public abstract class Entity<TId> : IEquatable<Entity<TId>> where TId : notnull
 {
-    private IEquatable<Entity<TId>> _equatableImplementation;
     public TId Id { get; protected set; }
 
     protected Entity(TId id)
